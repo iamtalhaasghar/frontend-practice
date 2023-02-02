@@ -1,0 +1,33 @@
+body{
+    background-color: #f0f2f5
+}
+.card-body > *{
+    margin-bottom: 15px;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #afafaf;
+    opacity: 1; /* Firefox */
+}
+
+#signup-btn{
+    background-color: #42b72a;
+    border: none;
+}
+
+#signup-btn:hover{
+    background-color: #2f7f1d;
+
+}
+
+#create-page{
+    color: black;
+}
