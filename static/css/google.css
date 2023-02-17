@@ -9,3 +9,13 @@
 .link-button:hover{
     text-decoration: underline;
 }
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #afafaf;
+    opacity: 1; /* Firefox */
+}
+
+.hint-text{
+    color: #666464;
+    margin-left: 1em;
+}
