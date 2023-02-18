@@ -1,0 +1,10 @@
+a{
+    color: gray; 
+    border-bottom: 2px solid transparent; /*so that web page is not distorted*/
+}
+
+a:hover{
+    color: black;
+    border-bottom: 2px solid #81d8d0;
+    text-decoration: none;
+}
